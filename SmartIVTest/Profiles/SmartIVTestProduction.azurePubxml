@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials>{"ServiceManagementEndpoint":"https:\/\/management.core.windows.net\/","SubscriptionId":"4c657709-80f1-493d-a78b-dcd457244d32"}</AzureCredentials>
+    <AzureDeleteDeploymentOnFailure>False</AzureDeleteDeploymentOnFailure>
+    <AzureDeploymentLabel>SmartIVTest</AzureDeploymentLabel>
+    <AzureDeploymentReplacementMethod>DeleteAndCreate</AzureDeploymentReplacementMethod>
+    <AzureSlot>Production</AzureSlot>
+    <AzureEnableRemoteDesktop>False</AzureEnableRemoteDesktop>
+    <AzureEnableWebDeploy>True</AzureEnableWebDeploy>
+    <AzureFallbackToDeleteAndRecreateIfUpgradeFails>False</AzureFallbackToDeleteAndRecreateIfUpgradeFails>
+    <AzureHostedServiceLabel>smartivd</AzureHostedServiceLabel>
+    <AzureHostedServiceName>smartivd</AzureHostedServiceName>
+    <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>True</AzureEnableProfiling>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureStorageAccountLabel>wimtachsa</AzureStorageAccountLabel>
+    <AzureStorageAccountName>wimtachsa</AzureStorageAccountName>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <EnableRemoteDebugger>False</EnableRemoteDebugger>
+    <RemoteDebuggerConnectorCertificateThumbprint>7B41F2DBF2B8381DD65210869225F344E49A2F4C</RemoteDebuggerConnectorCertificateThumbprint>
+  </PropertyGroup>
+</Project>
