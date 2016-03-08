@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="SmartIVTest" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WCFServiceWebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=jainam;AccountKey=v/ntQwO0XCLHg0mn9osde+3sXmpDiH7lfSO4cZ68NzAKGmPBI3hNitDaBjaB7nUuL2tTMxlrKVgJdqbOqsTfTA==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="Jainam" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEDv2SUE1qr+3QJI+s0ZyJqQwDQYJKoZIhvcNAQEBBQAEggEA09bIFOJ4tLHTaucAjGyehUGLinL4Ok1ZJGa5oOU7QpH7TD2t8GaJnFfsU3IdHN461ndb/KJ5modyOJHu2v7BI3iUu8MEn8yuz0JBVcl3FcfUsmUFS0WJ1bBy3zcdrlTTYvcf0Gm5MBE9A8be6eC8vY8cx9/fqgQL6c+Jw275i2gY1w1fo9AQ9Ae9TJmJMNjE3P7ruGMvEKhNYLuEkWWdxDbgWFxeqA3B39fIzxmKxUTZRIQsBnf7Vn4G3SvM8R5JAoeh/mpOUDbqbqS5TQLtxiuOj/6TsJm7ycBJIwYcJasrusbm+HoCmK6/qy/jrRIVoOfLyGoQRDCf2NcY/6NN6zAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECMLeb48KQxZrgBDtmmprzOUFp/WMYHONnJvb" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-12-17T23:59:59.0000000-05:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="C2B5C1A8E5C7CDDE46DAF8757129354D71CA063F" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
