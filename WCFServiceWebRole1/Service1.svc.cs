@@ -692,6 +692,10 @@ namespace WCFServiceWebRole1
                     json = JsonConvert.SerializeObject(dictionary, Formatting.None);
                   
                     connection.Close();
+
+                    ///////THIS IS WHERE YOU CHECK MEASUREMENT FOR LIMITS AND SEND PUSH NOTIFICATIONS IF REQUIRED
+
+
                     return new MemoryStream(Encoding.UTF8.GetBytes(json));
                 }
                 else
